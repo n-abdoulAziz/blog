@@ -1,5 +1,8 @@
 <div class="col-lg-12">
     <div class="list-group">
+    <?php if ($error != ''):?>
+    <div class="warning"><?=$error?></div>
+    <?php endif;?>
         <form action="" method="post"> 
             <div class="form-group">
                 <label for="formExempleInputname">username</label>
@@ -43,3 +46,7 @@
     </div>            
 
 </div>
+
+
+
+
